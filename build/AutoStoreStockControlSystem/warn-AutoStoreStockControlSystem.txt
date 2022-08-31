@@ -1,0 +1,70 @@
+
+This file lists modules PyInstaller was not able to find. This does not
+necessarily mean this module is required for running you program. Python and
+Python 3rd-party packages include a lot of conditional or optional module. For
+example the module 'ntpath' only exists on Windows, whereas the module
+'posixpath' only exists on Posix systems.
+
+Types if import:
+* top-level: imported at the top-level - look at these first
+* conditional: imported within an if-statement
+* delayed: imported from within a function
+* optional: imported within a try-except-statement
+
+IMPORTANT: Do NOT post this list to the issue-tracker. Use it as a basis for
+           yourself tracking down the missing module. Thanks!
+
+missing module named 'win32com.gen_py' - imported by win32com (conditional, optional), c:\users\howju_000\appdata\local\programs\python\python37-32\lib\site-packages\PyInstaller\loader\rthooks\pyi_rth_win32comgenpy.py (top-level)
+missing module named resource - imported by posix (top-level), E:\VSCodeProject\INTERMEDIATE\SmartStore\AutoStoreStockControlSystem.py (top-level)
+missing module named posix - imported by os (conditional, optional), E:\VSCodeProject\INTERMEDIATE\SmartStore\AutoStoreStockControlSystem.py (top-level)
+missing module named _posixsubprocess - imported by subprocess (conditional), E:\VSCodeProject\INTERMEDIATE\SmartStore\AutoStoreStockControlSystem.py (top-level)
+missing module named 'org.python' - imported by pickle (optional), xml.sax (delayed, conditional), E:\VSCodeProject\INTERMEDIATE\SmartStore\AutoStoreStockControlSystem.py (top-level)
+missing module named readline - imported by cmd (delayed, conditional, optional), code (delayed, conditional, optional), pdb (delayed, optional), E:\VSCodeProject\INTERMEDIATE\SmartStore\AutoStoreStockControlSystem.py (top-level)
+excluded module named _frozen_importlib - imported by importlib (optional), importlib.abc (optional), E:\VSCodeProject\INTERMEDIATE\SmartStore\AutoStoreStockControlSystem.py (top-level)
+missing module named _frozen_importlib_external - imported by importlib._bootstrap (delayed), importlib (optional), importlib.abc (optional), E:\VSCodeProject\INTERMEDIATE\SmartStore\AutoStoreStockControlSystem.py (top-level)
+missing module named _winreg - imported by platform (delayed, optional), selenium.webdriver.firefox.firefox_binary (delayed, optional), E:\VSCodeProject\INTERMEDIATE\SmartStore\AutoStoreStockControlSystem.py (top-level)
+missing module named _scproxy - imported by urllib.request (conditional)
+missing module named java - imported by platform (delayed), E:\VSCodeProject\INTERMEDIATE\SmartStore\AutoStoreStockControlSystem.py (top-level)
+missing module named 'java.lang' - imported by platform (delayed, optional), xml.sax._exceptions (conditional), E:\VSCodeProject\INTERMEDIATE\SmartStore\AutoStoreStockControlSystem.py (top-level)
+missing module named vms_lib - imported by platform (delayed, conditional, optional), E:\VSCodeProject\INTERMEDIATE\SmartStore\AutoStoreStockControlSystem.py (top-level)
+missing module named termios - imported by tty (top-level), getpass (optional), E:\VSCodeProject\INTERMEDIATE\SmartStore\AutoStoreStockControlSystem.py (top-level)
+missing module named grp - imported by shutil (optional), tarfile (optional), pathlib (delayed), E:\VSCodeProject\INTERMEDIATE\SmartStore\AutoStoreStockControlSystem.py (top-level)
+missing module named pwd - imported by posixpath (delayed, conditional), shutil (optional), tarfile (optional), http.server (delayed, optional), webbrowser (delayed), netrc (delayed, conditional), getpass (delayed), pathlib (delayed, conditional, optional), E:\VSCodeProject\INTERMEDIATE\SmartStore\AutoStoreStockControlSystem.py (top-level)
+missing module named org - imported by copy (optional), E:\VSCodeProject\INTERMEDIATE\SmartStore\AutoStoreStockControlSystem.py (top-level)
+missing module named AppKit - imported by keyboard._darwinkeyboard (top-level)
+missing module named Quartz - imported by keyboard._darwinkeyboard (top-level)
+missing module named fcntl - imported by keyboard._nixcommon (delayed)
+missing module named Queue - imported by urllib3.util.queue (conditional), keyboard (optional), keyboard._nixcommon (optional), keyboard._generic (optional)
+missing module named matplotlib - imported by xlwings.utils (optional), xlwings.main (optional)
+missing module named numpy - imported by comtypes.npsupport (conditional, optional), comtypes.safearray (delayed, conditional), xlwings.utils (optional), xlwings._xlwindows (optional), xlwings._xlmac (optional), PIL.ImageFilter (optional), xlwings.conversion (optional), xlwings.conversion.standard (optional), xlwings.conversion.numpy_conv (optional), xlwings.conversion.pandas_conv (conditional)
+missing module named olefile - imported by PIL.MicImagePlugin (top-level), PIL.FpxImagePlugin (top-level)
+missing module named UserDict - imported by PIL.PdfParser (optional)
+missing module named Tkinter - imported by PIL.ImageTk (conditional)
+missing module named 'PySide.QtCore' - imported by PIL.ImageQt (conditional, optional)
+missing module named 'PyQt4.QtCore' - imported by PIL.ImageQt (conditional, optional)
+missing module named 'PySide2.QtCore' - imported by PIL.ImageQt (conditional, optional)
+missing module named PySide2 - imported by PIL.ImageQt (conditional, optional)
+missing module named 'PyQt5.QtCore' - imported by PIL.ImageQt (conditional, optional)
+missing module named pathlib2 - imported by PIL.Image (optional)
+missing module named cffi - imported by PIL.Image (optional), PIL.PyAccess (top-level), PIL.ImageTk (delayed, conditional, optional)
+missing module named __builtin__ - imported by PIL.Image (optional)
+missing module named 'matplotlib.backends' - imported by xlwings.main (optional)
+missing module named pandas - imported by xlwings._xlwindows (optional), xlwings._xlmac (optional), xlwings.conversion (optional), xlwings.conversion.numpy_conv (conditional, optional), xlwings.conversion.pandas_conv (optional)
+missing module named 'appscript.reference' - imported by xlwings._xlmac (top-level)
+missing module named appscript - imported by xlwings._xlmac (top-level)
+missing module named aem - imported by xlwings._xlmac (top-level)
+missing module named psutil - imported by xlwings._xlmac (top-level)
+missing module named comtypes.gen - imported by comtypes (delayed), comtypes.client._code_cache (delayed, optional), comtypes.client (top-level)
+missing module named sets - imported by comtypes.tools.typedesc_base (optional), comtypes.tools.tlbparser (optional), comtypes.tools.codegenerator (optional)
+missing module named 'comtypes.gen' - imported by comtypes.client._generate (delayed)
+missing module named future_builtins - imported by xlwings (conditional)
+missing module named urllib2 - imported by selenium.webdriver.common.utils (delayed, optional), selenium.webdriver.common.service (delayed, optional)
+missing module named StringIO - imported by selenium.webdriver.remote.webelement (optional), urllib3.packages.six (conditional)
+missing module named _uuid - imported by uuid (optional)
+missing module named urlparse - imported by selenium.webdriver.remote.remote_connection (optional)
+runtime module named urllib3.packages.six.moves - imported by http.client (top-level), urllib3.connectionpool (top-level), urllib3.util.response (top-level), 'urllib3.packages.six.moves.urllib' (top-level), urllib3.response (top-level), urllib3.util.queue (top-level)
+missing module named backports - imported by urllib3.packages.ssl_match_hostname (optional)
+missing module named "'urllib3.packages.six.moves.urllib'.parse" - imported by urllib3.request (top-level), urllib3.poolmanager (top-level)
+missing module named httplib - imported by selenium.webdriver.safari.webdriver (optional), selenium.webdriver.blackberry.webdriver (optional), selenium.webdriver.webkitgtk.webdriver (optional)
+missing module named cStringIO - imported by selenium.webdriver.firefox.firefox_profile (optional)
+missing module named copy_reg - imported by cStringIO (top-level)
